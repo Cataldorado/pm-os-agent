@@ -10,12 +10,16 @@ List every discrete decision or action in your agent's workflow, then score each
 
 | Decision / action | Reversibility (H/M/L) | Blast radius (H/M/L) | Measurability (H/M/L) | Above / Below | HITL? |
 |---|---|---|---|---|---|
-| _Pull project state + recent GitHub/Jira activity_ | H | L | H | Below | · |
-| _Draft the weekly leadership status update_ | H | M | M | Below | spot-check |
-| _Propose next sprint's stories from the PRD (within cap)_ | M | M | M | Below | spot-check |
-| _Post the update to a channel / commit a ship date_ | L | H | M | Above | required |
-| _Mark a launch gate green / merge or close a ticket_ | L | H | M | Above | required |
-| _…_ | | | | | |
+| Pull project state + activity | H | L | H | Step 3 | Step 3 |
+| Decide relevant context | H | M | M | Step 3 | Step 3 |
+| Draft the update | H | L | H | Step 3 | Step 3 |
+| Decide tone | H | L | M | Step 3 | Step 3 |
+| Decide commitment level | L | H | M | Step 3 | Step 3 |
+| Flag at-risk / escalation | H | M | M | Step 3 | Step 3 |
+| Choose what to escalate | H | M | M | Step 3 | Step 3 |
+| Propose a story batch (capped) | H | L | M | Step 3 | Step 3 |
+| Post / send the update | L | H | M | Step 3 | Step 3 |
+| Approve a company-wide update | L | H | L | Step 3 | Step 3 |
 
 ## Agent anatomy (sketch)
 
